@@ -1,0 +1,43 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a2a; /* slightly lighter than header */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full-width top header */
+.header {
+  position: absolute;
+  top: 20px; /* distance from top */
+  left: 50%;
+  transform: translateX(-50%); /* center horizontally */
+  width: 97vw;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 20px 0;
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:  #6d99f2;
+  cursor: pointer;
+}
+
+/* Glow effect on hover */
+.header:hover {
+  box-shadow: 0 0 10px ;
+}
+
+
